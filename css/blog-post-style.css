@@ -1,3 +1,10 @@
+@import url("fineprint.css") print;
+@import url("bluish.css") speech;
+@import 'custom.css';
+@import url("chrome://communicator/skin/");
+@import "common.css" screen;
+@import url('landscape.css') screen and (orientation:landscape);
+
 /* Mobile first */
 
 .container {
@@ -35,12 +42,3 @@
 
 
 /* If Screen Is mobile size */
-
-
-/* Anything smaller than first breakpoint 320px */
-
-@import "blog-post-mobile.css" screen and (max-width: 320px);
-
-/* Medium Screens */
-
-@import "blog-post-tablet.css" screen and (min-width: 320px)and(max-width: 672px);

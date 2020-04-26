@@ -1,0 +1,16 @@
+.nav {
+    height: 80px;
+    width: 100%;
+}
+
+.nav.a {
+    display: inline-block;
+    height: 80px;
+    line-height: 80px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    color: #161616;
+    padding: 0, 32px;
+}

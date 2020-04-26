@@ -1,0 +1,39 @@
+.content {
+    display: inline-block;
+}
+
+#nestedGrid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 16px;
+    grid-gap: 16px;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    width: 100%;
+    margin: 16px;
+    border: 0.5px sold #777677;
+    justify-content: center;
+    padding: 8px;
+}
+
+#one {}
+
+#two {}
+
+#three {}
+
+#four {}
+
+#five {}
+
+#six {}
+
+#seven {}
+
+#eight {}
+
+#night {}
