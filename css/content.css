@@ -1,26 +1,33 @@
 .content {
     display: inline-block;
+    width: 100%;
+    padding: 0px16px;
+    margin: 0px 32px;
 }
 
 #nestedGrid {
     display: grid;
-    width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 16px;
     grid-gap: 16px;
+    border: 0.5px solid #777677;
     justify-content: center;
 }
 
 .card {
     display: flex;
     width: 100%;
-    margin: 16px;
+    margin: 0px;
     border: 0.5px sold #777677;
     justify-content: center;
     padding: 8px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-size: 100% 55%; */
+    height: 440px;
 }
 
-button {
+
+/* button {
     padding: 9px 25px;
     background-color: #1164FB;
     border: none;
@@ -31,22 +38,40 @@ button {
 
 button:hover {
     background-color: #0342B5;
+} */
+
+#one {
+    background-image: url('../img/Web-Image-1.jpg');
 }
 
-#one {}
+#two {
+    background-image: url('../img/Web-Image-2.jpg');
+}
 
-#two {}
+#three {
+    background-image: url('../img/Web-Image-3.jpg');
+}
 
-#three {}
+#four {
+    background-image: url('../img/Web-Image-4.jpg');
+}
 
-#four {}
+#five {
+    background-image: url('../img/Web-Image-5.jpg');
+}
 
-#five {}
+#six {
+    background-image: url('../img/Web-Image-6.jpg');
+}
 
-#six {}
+#seven {
+    background-image: url('../img/Web-Image-7.jpg');
+}
 
-#seven {}
+#eight {
+    background-image: url('../img/Web-Image-8.jpg');
+}
 
-#eight {}
-
-#night {}
+#night {
+    background-image: url('../img/Web-Image-9.jpg');
+}

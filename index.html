@@ -3,9 +3,24 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>my personal blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <title>my personal blog</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        // Shorthand for $( document ).ready()
+        $(function() {
+            $(".toggle").on("click", function() {
+                if ($(".item").hasClass("active")) {
+                    $(".item").removeClass("active");
+                } else {
+                    $(".item").addClass("active");
+                }
+            })
+        });
+    </script>
+
+
 </head>
 
 <body>
@@ -16,9 +31,10 @@
             <li class="item"><a href="#">News</a></li>
             <li class="item"><a href="#">About</a></li>
             <li class="item"><a href="#">contact</a></li>
+            <li class="toggle"><span class="bars"></span></li>
         </ul>
     </nav>
-    <div class="header">Header</div>
+    <div class="header">Latest Posts</div>
     <div class="content">
         <div id="nestedGrid">
             <div class="card" id="one">Box 1</div>

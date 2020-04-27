@@ -1,13 +1,17 @@
 nav {
     background-color: #000000;
-    padding: 8px 20px;
+    padding: 8px 28px;
     height: 80px;
     width: 100%;
 }
 
 .menu li {
-    front-size: 20px;
+    font-size: 20px;
     padding: 15px 5px;
+}
+
+.menu li a {
+    display: block;
 }
 
 .logo a {
@@ -24,6 +28,52 @@ nav {
     align-items: center;
 }
 
+.toggle {
+    order: 1;
+}
+
+.item {
+    width: 100%;
+    text-align: center;
+    order: 2;
+    display: none;
+    background: black;
+}
+
+.item.active {
+    display: block;
+}
+
+.toggle {
+    cursor: pointer;
+}
+
+.bars {
+    background: #999999;
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    width: 24px;
+}
+
+.bars::before,
+.bars::after {
+    background: #999999;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    width: 24px;
+}
+
+.bars::before {
+    top: 2px;
+}
+
+.bars::after {
+    top: -5px;
+}
+
 .logo a {
     color: white;
     text-decoration: none;
@@ -35,6 +85,17 @@ nav {
     text-decoration: none;
 }
 
+.item a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s case 0s;
+}
+
+.item a:hover {
+    color: #1164FB;
+    /* text-decoration: none; */
+}
+
 
 /* tablet menu */
 
@@ -44,6 +105,9 @@ nav {
     }
     .logo {
         flex: 1;
+    }
+    .toggle {
+        order: 1;
     }
 }
 
@@ -58,6 +122,9 @@ nav {
         display: block;
         width: auto;
         order: 1;
+    }
+    .toggle {
+        display: none;
     }
     .menu li {
         padding: 15px 10px;
