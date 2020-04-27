@@ -1,16 +1,65 @@
-.nav {
+nav {
+    background-color: #000000;
+    padding: 8px 20px;
     height: 80px;
     width: 100%;
 }
 
-.nav.a {
-    display: inline-block;
-    height: 80px;
-    line-height: 80px;
-    font-family: IBM Plex Sans;
-    font-style: normal;
-    font-weight: normal;
+.menu li {
+    front-size: 20px;
+    padding: 15px 5px;
+}
+
+.logo a {
     font-size: 28px;
-    color: #161616;
-    padding: 0, 32px;
+}
+
+
+/* Mobile menu */
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s case 0s;
+}
+
+.logo a:hover {
+    color: #1164FB;
+    text-decoration: none;
+}
+
+
+/* tablet menu */
+
+@media all and (min-width:678px) {
+    .menu {
+        justify-content: center;
+    }
+    .logo {
+        flex: 1;
+    }
+}
+
+
+/* desktop menu */
+
+@media all and (min-width:1056px) {
+    .logo {
+        order: 0;
+    }
+    .item {
+        display: block;
+        width: auto;
+        order: 1;
+    }
+    .menu li {
+        padding: 15px 10px;
+    }
 }

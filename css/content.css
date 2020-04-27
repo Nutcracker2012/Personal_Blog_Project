@@ -20,6 +20,19 @@
     padding: 8px;
 }
 
+button {
+    padding: 9px 25px;
+    background-color: #1164FB;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: #0342B5;
+}
+
 #one {}
 
 #two {}

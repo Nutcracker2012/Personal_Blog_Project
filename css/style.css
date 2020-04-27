@@ -1,7 +1,27 @@
-@import url("nav.css");
-@import url("content.css");
-@import url("footer.css");
-.container {
-    width: 100%;
-    margin: 16px
+@import "nav.css";
+@import "content.css";
+@import "footer.css";
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: IBM Plex Sans;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s case 0s;
+}
+
+a:hover {
+    color: #1164FB;
+    text-decoration: underline;
 }
