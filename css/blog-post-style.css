@@ -1,44 +1,97 @@
-@import url("fineprint.css") print;
-@import url("bluish.css") speech;
-@import 'custom.css';
-@import url("chrome://communicator/skin/");
-@import "common.css" screen;
-@import url('landscape.css') screen and (orientation:landscape);
+@import "nav.css";
+@import "footer.css";
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
-/* Mobile first */
+body {
+    font-family: IBM Plex Sans;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    overflow-x: hidden;
+    /* min-width: fit-content; */
+}
 
-.container {
+.containergrid {
     display: grid;
-    grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 250px 600px;
-    border: 2px solid yellow;
-    /* Use grid-template-area to create a mobile layout where each named space occupies its own row */
-    grid-template-areas: "hd" "sd" "main" "ft";
+    grid-template-rows: 80px 392px 276px auto 80px;
+    grid-template-areas: "nav" "image" "author" "content-text" "footer";
+    border: 0.5px solid #777677;
+    justify-content: center;
 }
 
-.box {
-    border: 1px solid red;
-    background: #F8FA9D;
+ul {
+    list-style: none;
 }
 
-.header {
-    grid-area: hd;
+.cover-image {
+    grid-area: image;
+    height: 392px;
+    width: 100%;
+    margin: 0px;
+    background-image: url('../img/Web-Image-1.jpg');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
 }
 
-.footer {
-    grid-area: ft;
+.author {
+    display: inline-block;
+    grid-area: author;
+    margin: 0px;
+    height: 276px;
+    justify-content: center;
 }
 
-.sidebar {
-    grid-area: sd;
+#authorGrid {
+    display: grid;
+    margin: 0px;
+    grid-template-columns: 7fr 15fr;
+    grid-gap: 32px;
+    padding: 160px;
+    margin-right: 60px;
+    /* border: 0.5px solid #777677; */
+    justify-content: center;
 }
 
-.content {
-    grid-area: main;
+.author-photo {
+    justify-content: left;
+    background-image: url('../img/Web-Image-Post-Author.png');
+    background-size: cover;
+    height: 236px;
 }
 
+.content-text {
+    padding: 160px;
+    grid-area: content-text;
+}
 
-/* If Screen Is tablet size */
+.content-text h1 {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+    /* identical to box height, or 125% */
+    color: #161616;
+}
 
+.content-text span.date {
+    margin: 8px 0px;
+    color: #747474;
+    font-size: 12px;
+}
 
-/* If Screen Is mobile size */
+.content-text p {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+    letter-spacing: 0.16px;
+    color: #393939;
+}

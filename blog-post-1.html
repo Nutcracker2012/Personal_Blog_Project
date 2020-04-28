@@ -3,17 +3,78 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Exercise 1</title>
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
-    <link rel="stylesheet" href="blog-post-style.css">
+    <!-- <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/blog-post-style.css">
+    <title>blog post 1</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        // Shorthand for $( document ).ready()
+        $(function() {
+            $(".toggle").on("click", function() {
+                if ($(".item").hasClass("active")) {
+                    $(".item").removeClass("active");
+                } else {
+                    $(".item").addClass("active");
+                }
+            })
+        });
+    </script>
+
 </head>
 
 <body>
     <div class="container">
-        <div class="header box">Header</div>
-        <div class="feature"></div>
-        <div class="content box">Content</div>
-        <div class="footer box">Footer</div>
+        <nav>
+            <ul class="menu">
+                <li class="logo"><a href="index.html">Taste of Boston</a></li>
+                <li class="item"><a href="index.html">Home</a></li>
+                <li class="item"><a href="#">News</a></li>
+                <li class="item"><a href="#">About</a></li>
+                <li class="item"><a href="#">contact</a></li>
+                <li class="toggle"><span class="bars"></span></li>
+            </ul>
+        </nav>
+        <div class="cover-image"></div>
+        <div class="author">
+            <div id="authorGrid">
+                <div class="author-photo"></div>
+                <div class="author-info">
+                    <h3>Duane Hardy</h3>
+                    <span class="author-title">Senior Manager, Radish Tech company</span>
+                    <p>a content marketing professional at Radish Tech, an inbound marketing and sales platform that helps companies attract visitors, convert leads, and close customers. Previously, Rodney worked as a marketing manager for a tech software
+                        startup. He graduated with honors from Columbia University with a dual degree in Business Administration and Creative Writing. </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="content-text">
+            <h1>Healthy Cooking Is A Must For Families</h1>
+            <ul class="social">
+                <li class="twitter"><a href="index.html">Taste of Boston</a></li>
+                <li class="linkedin"><a href="index.html">Home</a></li>
+                <li class="linkedin"><a href="index.html">Home</a></li>
+                <li class="toggle"><span class="number"><em>226</em>share</span></li>
+            </ul>
+            <span class="date">Apr 25th</span>
+            <p>Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances of the graphical interface of the versions, therefore it has remained Microsoft’s product. Although, Lycoris,
+                Red Hat, Mandrake, Suse, Knoppix, Slackware and Lindows make up some of the different versions of LINUX. These companies release their own versions of the operating systems with minor changes, and yet always with the same bottom line.
+                The simple fact that not one of these companies are close to competing with Windows, for the most part causes the difference in market share.<br><br>It sometimes seems everyone on the planet is using Windows. Many say Windows is way better
+                than LINUX because of the simple handling of the software or hardware. There are huge differences between the number of users of LINUX and Windows. Many say LINUX is far better because it started as an Open Source software and thus is
+                more flexible than Windows. Then what accounts for the enormous difference in market share between these two operating systems?<br><br>Windows and Linux are different in many ways. <br><br> 1. Windows GUI is an integral component of the
+                OS; speed, efficiency and reliability, while the Linux GUI is optional, are increased by running a server instance of Linux without a GUI, something that server versions of Windows simply can’t do. The nature of the Linux GUI makes remote
+                administration of a Linux computer easier with a more natural feel than Windows computers.<br><br>2. The command prompts of the operating systems are very different. The command interpreters in the Windows 9x series are very similar to
+                each other and the NT class versions of Windows also have similar command interpreters. There are, however differences between a Windows 9x command interpreter and one in an NT class flavor of Windows. Linux, like UNIX, also supports multiple
+                command interpreters, but it usually uses BASH or “Bourne Again Shell”.<br><br>3. While you have to pay hundred’s of dollars for a new Windows version, you can just go download Linux. There’s no manuals or simple installers for the free
+                version. Although there is quite a learning curve when utilizing the free package. There are some easy automated packages of Linux for low prices.<br><br>>Microsoft’s “big con” is the supposed security issues with windows. Most spyware,
+                adware and malicious files programs work with Windows just fine. In general you do not deal with these kinds of circumstances unless you are working with Windows. whereas Linux offers a strong protection, password protection for Windows
+                can be bypassed with ease.<br><br>The software availability is the key to why Windows wins over Linux in this competition. Most software releases are already configured for Windows. If you chose to use Linux you must copy Windows with
+                special software in order to use your windows based programs. You could always install Windows as a subsystem to Linux, this would take the administrative capabilities of Windows and allow them to funtion on Linux.<br><br>If Linux is ever
+                to compete with Windows, it must become more user friendly and provide serious technical support.</p>
+        </div>
+        <div class="footer">
+            <h7>Design by Qian Pan, 2020</h7>
+        </div>
     </div>
 </body>
 

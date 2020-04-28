@@ -2,7 +2,15 @@
     grid-area: footer;
     background-color: #000000;
     margin: 32px 0px 0px 0px;
-    padding: 8px 28px;
+    padding: 0px 28px;
     height: 80px;
     width: 100%;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 80px;
+    /* identical to box height, or 129% */
+    letter-spacing: 0.16px;
+    color: #FFFFFF;
 }
