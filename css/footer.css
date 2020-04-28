@@ -1,4 +1,5 @@
 .footer {
+    grid-area: footer;
     background-color: #000000;
     margin: 32px 0px 0px 0px;
     padding: 8px 28px;
