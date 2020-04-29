@@ -14,3 +14,13 @@
     letter-spacing: 0.16px;
     color: #FFFFFF;
 }
+
+
+/* tablet menu */
+
+@media all and (min-width:678px) {}
+
+
+/* desktop menu */
+
+@media all and (min-width:1056px) {}
