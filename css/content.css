@@ -153,3 +153,181 @@
 #night {
     background-image: url('../img/Web-Image-9.jpg');
 }
+
+
+/* tabelt layout */
+
+@media (max-width: 1024px) {
+    .content {
+        grid-area: content;
+        display: inline-block;
+        width: 100%;
+        padding: 0px;
+        margin: 0px 32px;
+    }
+    #nestedGrid {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 16px;
+        margin-right: 60px;
+        /* border: 0.5px solid #777677; */
+        justify-content: center;
+    }
+    .card {
+        display: grid;
+        width: 100%;
+        grid-template-rows: 242px 130px 68px;
+        grid-template-areas: "image" "text" "stats";
+        margin: 0px;
+        padding: 0px;
+        border: 0.5px sold black;
+        border-radius: 10px;
+        text-align: left;
+        justify-content: center;
+        height: 440px;
+        cursor: pointer;
+        /* background: white; */
+        /* box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8); */
+        /* background-size: cover;
+        background-repeat: no-repeat; */
+    }
+    .card-image {
+        grid-area: image;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        background-size: cover;
+        /* background-repeat: no-repeat; */
+    }
+    .card-text {
+        grid-area: text;
+        margin: 16px;
+    }
+    .card-text span.date {
+        color: #747474;
+        font-size: 12px;
+    }
+    .card-text p {
+        margin-top: 8px;
+        color: 393939;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .card-text h2 {
+        margin-top: 0px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .card-stats {
+        grid-area: stats;
+        margin: 16px;
+    }
+    .button {
+        display: inline-block;
+        width: 120px;
+        height: 32px;
+        line-height: 32px;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+        background-color: #1164FB;
+        border: 1px solid #1164FB;
+        box-sizing: border-box;
+        border-radius: 25px;
+    }
+    .label {
+        display: block;
+        height: 100%;
+        position: relative;
+        top: 0;
+        transition: top
+    }
+    .button:hover {
+        background-color: #0353E9;
+        color: white;
+    }
+    .card-stats a {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 32px;
+        /* identical to box height */
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .card:hover {
+        /* transform: scale(1.05); */
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6)
+    }
+    #one {
+        background-image: url('../img/Web-Image-1.jpg');
+    }
+    #two {
+        background-image: url('../img/Web-Image-2.jpg');
+    }
+    #three {
+        background-image: url('../img/Web-Image-3.jpg');
+    }
+    #four {
+        background-image: url('../img/Web-Image-4.jpg');
+    }
+    #five {
+        background-image: url('../img/Web-Image-5.jpg');
+    }
+    #six {
+        background-image: url('../img/Web-Image-6.jpg');
+    }
+    #seven {
+        background-image: url('../img/Web-Image-7.jpg');
+    }
+    #eight {
+        background-image: url('../img/Web-Image-8.jpg');
+    }
+    #night {
+        background-image: url('../img/Web-Image-9.jpg');
+    }
+}
+
+
+/* Mobile layout */
+
+@media (max-width: 568px) {
+    .content {
+        grid-area: content;
+        display: inline-block;
+        width: 100%;
+        padding: 0px;
+        margin: 0px 32px;
+    }
+    #nestedGrid {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 8px;
+        /* margin-right: 60px; */
+        /* border: 0.5px solid #777677; */
+        justify-content: center;
+    }
+    .card {
+        display: grid;
+        width: 100%;
+        grid-template-rows: 242px 130px 68px;
+        grid-template-areas: "image" "text" "stats";
+        margin: 0px;
+        padding: 0px;
+        border: 0.5px sold black;
+        border-radius: 10px;
+        text-align: left;
+        justify-content: center;
+        height: 440px;
+        cursor: pointer;
+        /* background: white; */
+        /* box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8); */
+        /* background-size: cover;
+        background-repeat: no-repeat; */
+    }
+}
