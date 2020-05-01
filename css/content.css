@@ -192,6 +192,9 @@
         background-repeat: no-repeat; */
     }
     .card-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         grid-area: image;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
@@ -223,6 +226,9 @@
         line-height: 26px;
     }
     .card-stats {
+        display: flex;
+        align-items: left;
+        justify-content: left;
         grid-area: stats;
         margin: 16px;
     }

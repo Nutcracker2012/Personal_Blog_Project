@@ -1,9 +1,5 @@
 @import "nav.css";
 @import "footer.css";
-
-/* @import "blog-post-mobile-portrait" (max-width: 320px);
-@import "blog-post-tablet-portrait" (max-width: 678px); */
-
 * {
     box-sizing: border-box;
     padding: 0;
@@ -121,12 +117,12 @@ ul {
     color: #0E0E0E;
 }
 
-.content-text {
+article {
     padding: 32px 160px;
     grid-area: content-text;
 }
 
-.content-text h1 {
+article h1 {
     margin: 0px 0px 16px 0px;
     font-family: IBM Plex Sans;
     font-style: normal;
@@ -169,7 +165,7 @@ ul {
     font-size: 1.25rem;
 }
 
-.content-text {
+article {
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -182,7 +178,7 @@ ul {
     font-size: 0.75rem;
 }
 
-.content-text p {
+article p {
     margin: 16px 0px;
     font-family: IBM Plex Sans;
     font-style: normal;
@@ -192,6 +188,10 @@ ul {
     /* or 129% */
     letter-spacing: 0.16px;
     color: #393939;
+}
+
+figure img {
+    width: 100%;
 }
 
 
@@ -298,11 +298,11 @@ ul {
         /* letter-spacing: 0.266667px; */
         color: #0E0E0E;
     }
-    .content-text {
+    article {
         padding: 32px 64px;
         grid-area: content-text;
     }
-    .content-text h1 {
+    article h1 {
         margin: 0px 0px 16px 0px;
         font-family: IBM Plex Sans;
         font-style: normal;
@@ -338,13 +338,13 @@ ul {
     .sharenumber {
         font-size: 1.25rem;
     }
-    .content-text span.date {
+    article span.date {
         margin: 16px 0px;
         /* padding: 8px 0px; */
         color: #747474;
         font-size: 0.75rem;
     }
-    .content-text p {
+    article p {
         margin: 16px 0px;
         font-family: IBM Plex Sans;
         font-style: normal;
@@ -462,11 +462,11 @@ ul {
         /* letter-spacing: 0.266667px; */
         color: #0E0E0E;
     }
-    .content-text {
+    article {
         padding: 32px 32px;
         grid-area: content-text;
     }
-    .content-text h1 {
+    article h1 {
         margin: 0px 0px 16px 0px;
         font-family: IBM Plex Sans;
         font-style: normal;
@@ -502,13 +502,13 @@ ul {
     .sharenumber {
         font-size: 1.25rem;
     }
-    .content-text span.date {
+    article span.date {
         margin: 16px 0px;
         /* padding: 8px 0px; */
         color: #747474;
         font-size: 0.75rem;
     }
-    .content-text p {
+    article p {
         margin: 16px 0px;
         font-family: IBM Plex Sans;
         font-style: normal;

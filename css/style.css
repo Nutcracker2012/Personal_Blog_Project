@@ -30,7 +30,7 @@ ul {
     list-style: none;
 }
 
-.header {
+header {
     grid-area: header;
     padding: 16px 32px;
     font-style: normal;

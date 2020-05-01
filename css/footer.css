@@ -1,4 +1,4 @@
-.footer {
+footer {
     grid-area: footer;
     background-color: #000000;
     margin: 32px 0px 0px 0px;
@@ -19,12 +19,16 @@
 /* tabelt layout */
 
 @media (max-width: 1024px) {
-    font-size: 12px;
+    footer {
+        font-size: 12px;
+    }
 }
 
 
 /* Mobile layout */
 
 @media (max-width: 568px) {
-    font-size: 10px;
+    footer {
+        font-size: 10px;
+    }
 }
