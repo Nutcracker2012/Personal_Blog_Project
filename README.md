@@ -1,6 +1,6 @@
 # Personal Blog Project
 This project is the first project for udacity front-end nano degree course. 
-This project requires you to utilize your HTML and CSS skills to build out a personal blog website, including custom images, layout, and styling. Along with webpage design considerations, you'll work to appropriately structure your files, as well as use proper CSS and HTML formatting & style.
+This project requires you to utilize your HTML and CSS skills to build out a responsive personal blog website, including custom images, layout, and styling. Along with webpage design considerations, you'll work to appropriately structure your files, as well as use proper CSS and HTML formatting & style.
 
 ## Table of Contents
 
@@ -9,9 +9,9 @@ This project requires you to utilize your HTML and CSS skills to build out a per
 
 ## Project Screenshots
 ### Home page
-* ![Website Home Page Screenshot](/img/Homepage.png)
+![Website Home Page Screenshot](/img/Homepage.png)
 ### Blog page
-* ![Website Home Page Screenshot](/img/Blogpage.png)
+![Website Home Page Screenshot](/img/Blogpage.png)
 
 
 ## Instructions
