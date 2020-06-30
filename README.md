@@ -5,14 +5,21 @@ This project requires you to utilize your HTML and CSS skills to build out a per
 ## Table of Contents
 
 * [Instructions](https://classroom.udacity.com/nanodegrees/nd0011/parts/819dc899-4e21-4884-b050-2328896d87c0/modules/a280da9f-d026-43e4-a06c-279d7bff7faa/lessons/07824c5b-26fb-4178-92f6-4709ddbc2bf0/project)
+* installation
+
+## Project Screenshots
+### Home page
 * ![Website Home Page Screenshot](/img/Homepage.png)
+### Blog page
 * ![Website Home Page Screenshot](/img/Blogpage.png)
 
 
 ## Instructions
-* The project should have a clear structure. All files shown must be present and the app must successfully render a home page with clear design and functionality added when index.html is loaded in the browser. No errors should display in console.
-* All features are usable across modern desktop, tablet, and phone browsers.
-* Dynamicly add/remove active class according which section is within viewport & Styling has been added for active states.
-* There are at least 4 sections that have been added to the page & Navigation is built dynamically as an unordered list.
-* Create scroll event & It should be clear which section is being viewed while scrolling through the page.
-* When clicking an item from the navigation menu, the link should scroll to the appropriate section.
+In this project, you'll get to start from scratch! To complete the project, you are able to decide on the HTML and CSS files to include as part of your work, given that the end result is within the confines of the project rubric provided below. This should include, at minimum, HTML files related to:
+
+* the blog website
+* a blog post
+
+as well as any related CSS files for styling.
+
+Make sure to see the earlier section on Development Strategy if you are unsure how to get started.
