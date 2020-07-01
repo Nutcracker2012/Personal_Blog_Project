@@ -5,7 +5,21 @@ This project requires you to utilize your HTML and CSS skills to build out a res
 ## Table of Contents
 
 * [Instructions](https://classroom.udacity.com/nanodegrees/nd0011/parts/819dc899-4e21-4884-b050-2328896d87c0/modules/a280da9f-d026-43e4-a06c-279d7bff7faa/lessons/07824c5b-26fb-4178-92f6-4709ddbc2bf0/project)
-* installation
+* [HTML](##HTML)
+* [CSS](##CSS)
+
+## HTML
+* the blog website: Index.html
+* a blog post: blog-post-1.html
+
+## CSS
+* blog-post-style.css
+* content.css
+* footer.css
+* nav.css
+* style.css
+
+
 
 ## Project Screenshots
 ### Home page
@@ -14,12 +28,4 @@ This project requires you to utilize your HTML and CSS skills to build out a res
 ![Website Home Page Screenshot](/img/Blogpage.png)
 
 
-## Instructions
-In this project, you'll get to start from scratch! To complete the project, you are able to decide on the HTML and CSS files to include as part of your work, given that the end result is within the confines of the project rubric provided below. This should include, at minimum, HTML files related to:
 
-* the blog website
-* a blog post
-
-as well as any related CSS files for styling.
-
-Make sure to see the earlier section on Development Strategy if you are unsure how to get started.
