@@ -2,7 +2,7 @@
 This project is my first project for udacity front-end nano degree course. 
 
 ## Project Requirement
-* This project requires meto utilize my HTML and CSS skills to build out a responsive personal blog website, including custom images, layout, and styling. Along with webpage design considerations, I worked to appropriately structure my files, as well as use proper CSS and HTML formatting & style.
+* This project requires me to utilize my HTML and CSS skills to build out a responsive personal blog website, including custom images, layout, and styling. Along with webpage design considerations, I worked to make sure I structure my files appropriately , as well as use proper CSS and HTML formatting & style.
 
 ### Structure
 * There should be at least 3 imported files in the main CSS file, but the student is welcome to break it down even further if that makes it easier for them.
@@ -15,6 +15,7 @@ This project is my first project for udacity front-end nano degree course.
 ### Responsiveness
 * Pages are mobile-friendly and display correctly on all display sizes (mobile, tablet, desktop).
 ### other quality considerations
+* All codes need to meet spectifications for valid HTML, HTML Formatting Rules, HTML Style Rules, CSS Formatting Rules and CSS Style Rules
 
 ## Table of Contents
 
